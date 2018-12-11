@@ -1,0 +1,92 @@
+extends ../layout/main
+
+block variables
+    - var title = 'Главная страница'
+    - var pageClass = 'index-page'
+
+
+block content
+    .container
+        include ../modules/aside
+        main.main
+            .main__item
+                span.main__item-main Education
+                .main__item-body
+                    .main__row
+                        .main__row-val
+                            span 2014-2018
+                        .main__row-key
+                            li Bechelor's Degree
+                            li Information Technologies(Programming)
+                    .main__row
+                        .main__row-val
+                            span 2018-2020
+                        .main__row-key
+                            li Master's Degree
+                            li Software Engineering Technologies
+
+            .main__item
+                span.main__item-title Skills
+                .main__item-body
+                    p.main__item-text Creating Web applications using Java SE/EE, Spring Framework, NodeJs(Gulp, Pug, Scss\Stylus\Less)
+                    ul.skills
+                        li.skills__item
+                            .skills__item-val
+                                span Java EE
+                            .skills__item-key
+                                .w3-light-grey
+                                    .w3-grey(style='height:20px;width:40%') 40%
+                        li.skills__item
+                            .skills__item-val
+                                span Spring
+                            .skills__item-key
+                                .w3-light-grey
+                                    .w3-grey(style='height:20px;width:25%') 25%
+                        li.skills__item
+                            .skills__item-val
+                                span Front-End
+                            .skills__item-key
+                                .w3-light-grey
+                                    .w3-grey(style='height:20px;width:50%') 50%
+
+            .main__item
+                span.main__item-title Personal Experience
+                .main__item-body
+                    ul.skills
+                        li.skills__item
+                            .skills__item-val
+                                span 1) Java Web app
+                            .skills__item-key
+                                span Created simple web app using Spring Mvc.
+
+                        li.skills__item
+                            .skills__item-val
+                                span 2) Lending Page
+                            .skills__item-key
+                                span Made up simple landing page - resume using gulp, sprites, pug and stylus.
+
+            .main__item
+                span.main__item-title Languages
+                .main__item-body
+                    ul.skills
+                        li.skills__item
+                            .skills__item-val
+                                span Polish
+                            .skills__item-key
+                                .w3-light-grey
+                                    .w3-grey(style='height:20px;width:80%') 80%
+                        li.skills__item
+                            .skills__item-val
+                                span Russian
+                            .skills__item-key
+                                    .w3-light-grey
+                                        .w3-grey(style='height:20px;width:100%') 100%
+
+                        li.skills__item
+                            .skills__item-val
+                                span English
+                            .skills__item-key
+                                .w3-light-grey
+                                    .w3-grey(style='height:20px;width:75%') 75%
+
+

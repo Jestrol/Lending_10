@@ -1,0 +1,75 @@
+aside.aside
+    .user
+        .user__img
+            img(src="static/img/general/profile.jpg" alt="photo")
+        span.user__name Ivan Melnyk
+        span.user__work Novice Java Web Developer
+
+    .aside__item-wrapper
+        .aside__item
+            .aside__item-header
+                +icon('target')
+                span.aside__item-title Objective
+            .aside__item-body
+                p.aside__item-text Searching a position as a Front/Back-End Java developer in a challenging environment that utilizes team work effort researching, learning and developing new awesome web application.
+        .aside__item
+            .aside__item-header
+                +icon('icon')
+                span.aside__item-title General Info
+            .aside__item-body
+                .aside__subitem
+                    span.aside__subitem-title Personal
+                    ul.aside__list
+                        li.aside__list-item Nationality : Ukrainian
+                        li.aside__list-item Date of birth : 21Jul 1997
+                        li.aside__list-item Languages: Polish, Russian, English
+                .aside__subitem
+                    span.aside__subitem-title Interest
+                    .aside__row
+                        .aside__col
+                            +icon('travel')
+                            span.aside__interest-text Traveling
+                        .aside__col
+                            +icon('music')
+                            span.aside__interest-text Music
+                    .aside__row
+                        .aside__col
+                            +icon('dev')
+                            span.aside__interest-text Self Development
+                        .aside__col
+                            +icon('book')
+                            span.aside__interest-text Reading
+
+
+
+
+    .aside__item
+        .aside__item-header
+            +icon('card')
+            span.aside__item-title Contact Info
+        .aside__item-body
+            .aside__row.aside__row--margin-small
+                .aside__col
+                    +icon('location')
+                    span.aside__interest-text Rzeszow
+            .aside__row.aside__row--margin-small
+                .aside__col
+                    +icon('phone')
+                    span.aside__interest-text +48 575 224 867
+            .aside__row.aside__row--margin-small
+                .aside__col
+                    +icon('mail')
+                    span.aside__interest-text wipemeback@gmail.com
+
+    .socials
+        ul.socials__list
+            li.socials__list-item
+                a(href="https://www.facebook.com/" target="_blank").socials__list-link
+                    +icon('facebook')
+            li.socials__list-item
+                a(href="https://www.linkedin.com/in/ivan-melnyk-b33910175/" target="_blank").socials__list-link
+                    +icon('linkedin')
+            li.socials__list-item
+                a(href="https://github.com/Jestrol" target="_blank").socials__list-link
+                    +icon('github')
+
