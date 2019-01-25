@@ -22,20 +22,20 @@ aside.aside
                     ul.aside__list
                         li.aside__list-item Nationality : Ukrainian
                         li.aside__list-item Date of birth : 21Jul 1997
-                        li.aside__list-item Languages: Polish, Russian, English, Ukrainian
+                        li.aside__list-item Languages: Polish(B2), Russian(C1), English(B1), Ukrainian(native)
                 .aside__subitem
                     span.aside__subitem-title Interest
                     .aside__row
                         .aside__col
-                            +icon('travel')
-                            span.aside__interest-text Traveling
+                            +icon('sport')
+                            span.aside__interest-text Sport
                         .aside__col
                             +icon('music')
                             span.aside__interest-text Music
                     .aside__row
                         .aside__col
-                            +icon('dev')
-                            span.aside__interest-text Self Development
+                            +icon('game')
+                            span.aside__interest-text Computer games
                         .aside__col
                             +icon('book')
                             span.aside__interest-text Reading
@@ -60,16 +60,12 @@ aside.aside
                 .aside__col
                     +icon('phone')
                     span.aside__interest-text +48 575 224 867 || +38 096 273 6032
-
-    .socials
-        ul.socials__list
-            li.socials__list-item
-                a(href="https://www.facebook.com/" target="_blank").socials__list-link
-                    +icon('facebook')
-            li.socials__list-item
-                a(href="https://www.linkedin.com/in/ivan-melnyk-b33910175/" target="_blank").socials__list-link
+            .aside__row.aside__row--margin-small
+                .aside__col
                     +icon('linkedin')
-            li.socials__list-item
-                a(href="https://github.com/Jestrol" target="_blank").socials__list-link
+                    span.aside__interest-text linkedin.com/in/i-melnyk-b33910175
+            .aside__row.aside__row--margin-small
+                .aside__col
                     +icon('github')
+                    span.aside__interest-text github.com/Jestrol
 
